@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ImportResource;
 
 /**
- * Created by fanya on 2017/4/10.
+ * Created by kaiyun on 2017/4/10.
  */
 @SpringBootApplication
 @ImportResource({"classpath:spring-ctx.xml"})
