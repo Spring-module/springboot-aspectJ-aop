@@ -1,0 +1,118 @@
+2019-03-26 17:49:17.868 [main] INFO 
+				o.s.t.c.s.DefaultTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2019-03-26 17:49:17.908 [main] INFO 
+				o.s.t.c.s.DefaultTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@29a5f4e7, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@79c97cb, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@2d9caaeb, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@42a15bdc, org.springframework.test.context.support.DirtiesContextTestExecutionListener@44a59da3, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@27e47833, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@6f6745d6, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@27508c5d, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4f704591, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@4b5189ac]
+2019-03-26 17:49:18.046 [main] INFO 
+				o.s.b.f.x.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring-ctx.xml]
+2019-03-26 17:49:18.493 [main] INFO 
+				o.s.c.s.GenericApplicationContext - Refreshing org.springframework.context.support.GenericApplicationContext@48d61b48: startup date [Tue Mar 26 17:49:18 CST 2019]; root of context hierarchy
+2019-03-26 17:49:19.295 [main] INFO 
+				o.s.b.f.x.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring-ctx.xml]
+2019-03-26 17:49:20.645 [main] INFO 
+				o.h.v.internal.util.Version - HV000001: Hibernate Validator 6.0.9.Final
+2019-03-26 17:49:23.510 [main] INFO 
+				o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2019-03-26 17:49:23.700 [main] INFO 
+				c.k.s.aop.service.LogService - 进入+运算
+2019-03-26 17:49:23.821 [main] INFO 
+				c.k.s.aop.aspect.SystemLogAspect - 线程ID: 609bf885-2d92-46c6-89eb-d801e68c1ab5, 注解位置: SERVICE, 方法描述: , 目标类名: com.kaiyun.springboot.aop.service.LogService, 目标方法: testLog01, 调用参数: [1,2], 返回结果: 3, 花费时间: 12
+2019-03-26 17:49:23.830 [Thread-5] INFO 
+				o.s.c.s.GenericApplicationContext - Closing org.springframework.context.support.GenericApplicationContext@48d61b48: startup date [Tue Mar 26 17:49:18 CST 2019]; root of context hierarchy
+2019-03-26 17:49:23.840 [Thread-5] INFO 
+				o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2019-03-26 17:50:48.522 [main] INFO 
+				o.s.t.c.s.DefaultTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2019-03-26 17:50:48.559 [main] INFO 
+				o.s.t.c.s.DefaultTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@2d9caaeb, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@42a15bdc, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@44a59da3, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@27e47833, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6f6745d6, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@27508c5d, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@4f704591, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@4b5189ac, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@1e4d3ce5, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@3ddc6915]
+2019-03-26 17:50:48.693 [main] INFO 
+				o.s.b.f.x.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring-ctx.xml]
+2019-03-26 17:50:49.063 [main] INFO 
+				o.s.c.s.GenericApplicationContext - Refreshing org.springframework.context.support.GenericApplicationContext@258d79be: startup date [Tue Mar 26 17:50:49 CST 2019]; root of context hierarchy
+2019-03-26 17:50:49.759 [main] INFO 
+				o.s.b.f.x.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring-ctx.xml]
+2019-03-26 17:50:50.989 [main] INFO 
+				o.h.v.internal.util.Version - HV000001: Hibernate Validator 6.0.9.Final
+2019-03-26 17:50:53.702 [main] INFO 
+				o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2019-03-26 17:50:53.898 [main] INFO 
+				c.k.s.aop.service.LogService - 进入+运算
+2019-03-26 17:50:54.016 [main] INFO 
+				c.k.s.aop.aspect.SystemLogAspect - 线程ID: e4795a73-3708-416a-af95-87a1f6ea18c4, 注解位置: SERVICE, 方法描述: , 目标类名: com.kaiyun.springboot.aop.service.LogService, 目标方法: testLog01, 调用参数: [1,2], 返回结果: 3, 花费时间: 14
+2019-03-26 17:50:54.024 [Thread-5] INFO 
+				o.s.c.s.GenericApplicationContext - Closing org.springframework.context.support.GenericApplicationContext@258d79be: startup date [Tue Mar 26 17:50:49 CST 2019]; root of context hierarchy
+2019-03-26 17:50:54.031 [Thread-5] INFO 
+				o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2019-03-26 17:52:38.801 [main] INFO 
+				o.s.t.c.s.DefaultTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2019-03-26 17:52:38.836 [main] INFO 
+				o.s.t.c.s.DefaultTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@42a15bdc, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@44a59da3, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@27e47833, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@6f6745d6, org.springframework.test.context.support.DirtiesContextTestExecutionListener@27508c5d, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@4f704591, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@4b5189ac, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1e4d3ce5, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@3ddc6915, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@704deff2]
+2019-03-26 17:52:38.969 [main] INFO 
+				o.s.b.f.x.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring-ctx.xml]
+2019-03-26 17:52:39.334 [main] INFO 
+				o.s.c.s.GenericApplicationContext - Refreshing org.springframework.context.support.GenericApplicationContext@14f9390f: startup date [Tue Mar 26 17:52:39 CST 2019]; root of context hierarchy
+2019-03-26 17:52:40.071 [main] INFO 
+				o.s.b.f.x.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring-ctx.xml]
+2019-03-26 17:52:41.350 [main] INFO 
+				o.h.v.internal.util.Version - HV000001: Hibernate Validator 6.0.9.Final
+2019-03-26 17:52:44.025 [main] INFO 
+				o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2019-03-26 17:52:44.220 [main] INFO 
+				c.k.s.aop.service.LogService - 进入+运算
+2019-03-26 17:52:44.332 [main] INFO 
+				c.k.s.aop.aspect.SystemLogAspect - 线程ID: 0a43cd24-144d-4a22-87ba-3443bc75cbb2, 注解位置: SERVICE, 方法描述: testLog01, 目标类名: com.kaiyun.springboot.aop.service.LogService, 目标方法: testLog01, 调用参数: [1,2], 返回结果: 3, 花费时间: 11
+2019-03-26 17:52:44.341 [Thread-5] INFO 
+				o.s.c.s.GenericApplicationContext - Closing org.springframework.context.support.GenericApplicationContext@14f9390f: startup date [Tue Mar 26 17:52:39 CST 2019]; root of context hierarchy
+2019-03-26 17:52:44.350 [Thread-5] INFO 
+				o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2019-03-26 17:54:41.487 [main] INFO 
+				o.s.t.c.s.DefaultTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2019-03-26 17:54:41.531 [main] INFO 
+				o.s.t.c.s.DefaultTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@42a15bdc, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@44a59da3, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@27e47833, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@6f6745d6, org.springframework.test.context.support.DirtiesContextTestExecutionListener@27508c5d, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@4f704591, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@4b5189ac, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1e4d3ce5, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@3ddc6915, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@704deff2]
+2019-03-26 17:54:41.665 [main] INFO 
+				o.s.b.f.x.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring-ctx.xml]
+2019-03-26 17:54:42.033 [main] INFO 
+				o.s.c.s.GenericApplicationContext - Refreshing org.springframework.context.support.GenericApplicationContext@14f9390f: startup date [Tue Mar 26 17:54:42 CST 2019]; root of context hierarchy
+2019-03-26 17:54:42.785 [main] INFO 
+				o.s.b.f.x.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring-ctx.xml]
+2019-03-26 17:54:44.079 [main] INFO 
+				o.h.v.internal.util.Version - HV000001: Hibernate Validator 6.0.9.Final
+2019-03-26 17:54:46.863 [main] INFO 
+				o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2019-03-26 17:54:47.063 [main] INFO 
+				c.k.s.aop.service.LogService - 进入+运算
+2019-03-26 17:54:47.185 [main] INFO 
+				c.k.s.aop.aspect.SystemLogAspect - 线程ID: e0b6ac19-a823-4bde-96f6-59522989fa68, 注解位置: SERVICE, 方法描述: testLog01, 目标类名: com.kaiyun.springboot.aop.service.LogService, 目标方法: testLog01, 调用参数: [1,2], 返回结果: 3, 花费时间: 15ms
+2019-03-26 17:54:47.195 [Thread-5] INFO 
+				o.s.c.s.GenericApplicationContext - Closing org.springframework.context.support.GenericApplicationContext@14f9390f: startup date [Tue Mar 26 17:54:42 CST 2019]; root of context hierarchy
+2019-03-26 17:54:47.202 [Thread-5] INFO 
+				o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2019-03-26 18:03:52.390 [main] INFO 
+				o.s.t.c.s.DefaultTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2019-03-26 18:03:52.425 [main] INFO 
+				o.s.t.c.s.DefaultTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@42a15bdc, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@44a59da3, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@27e47833, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@6f6745d6, org.springframework.test.context.support.DirtiesContextTestExecutionListener@27508c5d, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@4f704591, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@4b5189ac, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1e4d3ce5, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@3ddc6915, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@704deff2]
+2019-03-26 18:03:52.555 [main] INFO 
+				o.s.b.f.x.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring-ctx.xml]
+2019-03-26 18:03:52.961 [main] INFO 
+				o.s.c.s.GenericApplicationContext - Refreshing org.springframework.context.support.GenericApplicationContext@14f9390f: startup date [Tue Mar 26 18:03:52 CST 2019]; root of context hierarchy
+2019-03-26 18:03:53.686 [main] INFO 
+				o.s.b.f.x.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring-ctx.xml]
+2019-03-26 18:03:54.972 [main] INFO 
+				o.h.v.internal.util.Version - HV000001: Hibernate Validator 6.0.9.Final
+2019-03-26 18:03:57.548 [main] INFO 
+				o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2019-03-26 18:03:57.752 [main] INFO 
+				c.k.s.aop.service.LogService - 进入+运算
+2019-03-26 18:03:57.869 [main] INFO 
+				c.k.s.aop.aspect.SystemLogAspect - 
+线程ID: a77c5871-a6b7-4cdb-9023-eb7fa11f0ee3, 
+注解位置: SERVICE, 
+方法描述: testLog01, 
+目标类名: com.kaiyun.springboot.aop.service.LogService, 
+目标方法: testLog01, 
+调用参数: [1,2], 
+返回结果: 3, 
+花费时间: 9ms
+2019-03-26 18:03:57.879 [Thread-5] INFO 
+				o.s.c.s.GenericApplicationContext - Closing org.springframework.context.support.GenericApplicationContext@14f9390f: startup date [Tue Mar 26 18:03:52 CST 2019]; root of context hierarchy
+2019-03-26 18:03:57.891 [Thread-5] INFO 
+				o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown

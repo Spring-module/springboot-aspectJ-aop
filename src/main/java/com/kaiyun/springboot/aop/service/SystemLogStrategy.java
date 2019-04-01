@@ -27,27 +27,27 @@ public class SystemLogStrategy implements Serializable {
 	
 	private static final long serialVersionUID = 1L;
 
-	private boolean async;
+	private boolean async;		// 是否是同步方法
 
-    private String threadId;
+    private String threadId;	// 线程ID
 
-    private String location;
+    private String location;	// 注解位置
 
-    private String description;
+    private String description;	// 方法描述
 
-    private String className;
+    private String className;	// 目标类名
 
-    private String methodName;
+    private String methodName;	// 目标方法
 
-    private String arguments;
+    private String arguments;	// 调用参数
 
-    private String result;
+    private String result;		// 返回结果
 
-    private Long elapsedTime;
+    private Long elapsedTime;	// 花费时间
 
 
     public String format() {
-        return "线程ID: {}, 注解位置: {}, 方法描述: {}, 目标类名: {}, 目标方法: {}, 调用参数: {}, 返回结果: {}, 花费时间: {}";
+        return "\n线程ID: {}, \n注解位置: {}, \n方法描述: {}, \n目标类名: {}, \n目标方法: {}, \n调用参数: {}, \n返回结果: {}, \n花费时间: {}ms";
     }
 
 	public Object[] args() {

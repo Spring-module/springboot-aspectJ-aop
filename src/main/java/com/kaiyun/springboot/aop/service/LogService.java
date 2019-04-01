@@ -13,8 +13,6 @@ import org.springframework.stereotype.Component;
 
 import com.kaiyun.springboot.aop.annotation.SystemServiceLog;
 
-import lombok.extern.slf4j.Slf4j;
-
 /**
  * ClassName:LogTest <br/>
  * Function: TODO ADD FUNCTION. <br/>
@@ -24,19 +22,24 @@ import lombok.extern.slf4j.Slf4j;
  * @since    JDK 1.8
  * @see 	 
  */
-@Slf4j
 @Component
 public class LogService {
-	
-	@SystemServiceLog
+	/**
+	 * testLog01:testLog01. <br/>
+	 *
+	 * @param a
+	 * @param b
+	 * @return
+	 * @since JDK 1.8
+	 * @author kaiyun
+	 */
+	@SystemServiceLog(description="＋运算")
     public int testLog01(int a, int b) {
-        log.info("进入+运算");
         return a + b;
     }
 
-	@SystemServiceLog
+	@SystemServiceLog(description="－运算")
     public int testLog02(int a, int b) {
-		log.info("进入-运算");
         return a - b;
     }
 }

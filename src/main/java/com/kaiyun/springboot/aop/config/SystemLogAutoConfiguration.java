@@ -38,5 +38,6 @@ public class SystemLogAutoConfiguration {
     public SystemLogAspect systemLogAspect() {
         return new SystemLogAspect();
     }
+    
 }
 
